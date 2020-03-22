@@ -71,7 +71,8 @@ const map = svg.append('image')
     });
 
 const mapInfo = d3.select(".map-info").append("div")
-    .attr('class', 'info');
+    .attr('class', 'info')
+
 
 
 // calc the width and height depending on margins.
@@ -126,7 +127,19 @@ d3.csv("./data/velo_fuss_zh_zaehler_pro_jahr.csv").then(function(data) {
                 .style("top", (d3.event.pageY-10)+"px")
                 .style("left",(d3.event.pageX+10)+"px")
                 .text(d.bezeichnung + '\n(' + Math.round(d.Mean_VELO_IN*4) + ' Velos pro Stunde)');})
-        .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
+        .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
+        .on("click", function(d){
+            mapInfo.selectAll("*").remove();
+            mapInfo
+                .append("p")
+                .style("color", "white")
+                .text(d.bezeichnung);
+
+            mapInfo
+                .append("p")
+                .style("color", "white")
+                .text(d.Total_VELO_IN);
+        });
         // .append("svg:title")
         // .text(function(d) { return d.bezeichnung; });
 });
