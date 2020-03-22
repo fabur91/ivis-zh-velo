@@ -3,7 +3,7 @@ const canvHeight = 800, canvWidth = 1200;
 const layout = [
     {   "class" : "header",
         "columnStart" : 1,
-        "columnEnd" :   3,
+        "columnEnd" :   'three',
         "rowStart" :    1,
         "rowEnd" :      1},
     {   "class" : "map",
@@ -26,7 +26,9 @@ const grid = d3.select("body").append("div")
     .attr('class', 'grid-container')
     .style('display', 'grid')
     .style('grid-template-columns', '1fr 1fr')
-    .style('grid-template-rows', '25px auto');
+    .style('grid-template-rows', '50px auto')
+    .style('grid-column-gap', '5%')
+    .style('grid-row-gap', '15%');
 
 const gridItems = grid.selectAll('div')
     .data(layout).enter()
@@ -41,6 +43,15 @@ const gridItems = grid.selectAll('div')
 ;
 
 // create svg canvas
+const headerNav = d3.select(".header")
+    .append('div')
+    .append("p")
+    .style("font-family", "sans-serif")
+    .style("font-size", "24px")
+    .style("text-anchor", "left")
+    .style('color', 'white')
+    .text("Aufkommen Fussgänger und Velofahrer in der Stadt Zürich");
+
 const svg = d3.select(".map").append("svg")
     .attr("width", 'auto')
     .attr("height", '100%')
