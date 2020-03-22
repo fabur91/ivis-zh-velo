@@ -1,11 +1,6 @@
 // layout
 const canvHeight = 800, canvWidth = 1200;
 const layout = [
-    {   "class" : "header",
-        "columnStart" : 1,
-        "columnEnd" :   'three',
-        "rowStart" :    1,
-        "rowEnd" :      1},
     {   "class" : "map",
         "columnStart" : 1,
         "columnEnd" :   1,
@@ -22,6 +17,9 @@ const layout = [
         "rowStart" :    3,
         "rowEnd" :      3},
 ];
+const header = d3.select("body").append("header")
+    .attr('class', 'header');
+
 const grid = d3.select("body").append("div")
     .attr('class', 'grid-container')
     .style('display', 'grid')
