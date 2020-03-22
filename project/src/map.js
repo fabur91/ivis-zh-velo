@@ -3,7 +3,7 @@ const canvHeight = 800, canvWidth = 1200;
 const layout = [
     {   "class" : "header",
         "columnStart" : 1,
-        "columnEnd" :   2,
+        "columnEnd" :   3,
         "rowStart" :    1,
         "rowEnd" :      1},
     {   "class" : "map",
@@ -25,13 +25,14 @@ const layout = [
 const grid = d3.select("body").append("div")
     .attr('class', 'grid-container')
     .style('display', 'grid')
-    .style('grid-template-columns', '50% 50%')
-    .style('grid-template-rows', '25px 4fr auto');
+    .style('grid-template-columns', '1fr 1fr')
+    .style('grid-template-rows', '25px auto');
 
 const gridItems = grid.selectAll('div')
     .data(layout).enter()
     .append('div')
     .attr('class', d => d.class)
+
     .style('grid-column-start', d => d.columnStart)
     .style('grid-column-end', d => d.columnEnd)
     .style('grid-row-start', d => d.rowStart)
