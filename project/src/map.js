@@ -1,13 +1,57 @@
-// create svg canvas
+// layout
 const canvHeight = 800, canvWidth = 1200;
-const svg = d3.select("body").append("svg")
-    .attr("width", canvWidth)
-    .attr("height", canvHeight);
+const layout = [
+    {   "class" : "header",
+        "columnStart" : 1,
+        "columnEnd" :   2,
+        "rowStart" :    1,
+        "rowEnd" :      1},
+    {   "class" : "map",
+        "columnStart" : 1,
+        "columnEnd" :   1,
+        "rowStart" :    2,
+        "rowEnd" :      2},
+    {   "class" : "map-info",
+        "columnStart" : 2,
+        "columnEnd" :   2,
+        "rowStart" :    2,
+        "rowEnd" :      2},
+    {   "class" : "progress",
+        "columnStart" : 1,
+        "columnEnd" :   2,
+        "rowStart" :    3,
+        "rowEnd" :      3},
+];
+const grid = d3.select("body").append("div")
+    .attr('class', 'grid-container')
+    .style('display', 'grid')
+    .style('grid-template-columns', '50% 50%')
+    .style('grid-template-rows', '100px 400px auto');
+
+const gridItems = grid.selectAll('div')
+    .data(layout).enter()
+    .append('div')
+    .attr('class', d => d.class)
+    .style('grid-column-start', d => d.columnStart)
+    .style('grid-column-end', d => d.columnEnd)
+    .style('grid-row-start', d => d.rowStart)
+    .style('grid-row-en', d => d.rowEnd)
+    .style('min-width', '0')
+    .style('min-height', '0')
+;
+
+// create svg canvas
+const svg = d3.select(".map").append("svg")
+    .attr("width", 'auto')
+    .attr("height", '100%')
+    .attr('viewBox', '0 0 800 1200')
+    .style('overflow', 'hidden');
 
 const map = svg.append('image')
     .attr('xlink:href', './data/map_zh.svg')
     .attr("width", canvWidth)
     .attr("height", canvHeight)
+    .style('display', 'block')
     .on("mousedown", function(d) {
         console.log(event.clientX);
         console.log(event.clientY);
@@ -41,11 +85,11 @@ var tooltip = d3.select("body")
     .style("padding", "6px")
     .style("font-family", "sans-serif")
     .style("color", "white")
-    .style("background-color", "#0066CC")
+    .style("background-color", "#0066CC");
 
 d3.csv("./data/velo_fuss_zh_zaehler_pro_jahr.csv").then(function(data) {
-    const xDomain = d3.extent(data, d => Number(d.x));
-    const yDomain = d3.extent(data, d => Number(d.y));
+    const xDomain = d3.extent(data, e => Number(e.x));
+    const yDomain = d3.extent(data, e => Number(e.y));
 
     // 1. create scales for x and y direction and for the color coding
     const xScale = d3.scaleLinear().domain(xDomain).rangeRound([0,width]);
