@@ -32,7 +32,6 @@ const gridItems = grid.selectAll('div')
     .data(layout).enter()
     .append('div')
     .attr('class', d => d.class)
-
     .style('grid-column-start', d => d.columnStart)
     .style('grid-column-end', d => d.columnEnd)
     .style('grid-row-start', d => d.rowStart)
