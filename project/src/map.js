@@ -46,7 +46,7 @@ const svg = d3.select(".map").append("svg")
     .attr("width", 'auto')
     .attr("height", '100%')
     .attr("preserveAspectRatio", "xMidYMin slice")
-    .attr('viewBox', '0 0 800 1200')
+    .attr('viewBox', '0 0 1200 800')
     .style('overflow', 'hidden');
 
 const map = svg.append('image')
@@ -64,15 +64,15 @@ const margin = {top: 50, right: 80, bottom: 50, left: 60};
 const width = canvWidth - margin.left - margin.right;
 const height = canvHeight - margin.top - margin.bottom;
 
-// chart title
-svg.append("text")
-    .attr("y", 0)
-    .attr("x", margin.left)
-    .attr("dy", "1.5em")
-    .attr("font-family", "sans-serif")
-    .attr("font-size", "24px")
-    .style("text-anchor", "left")
-    .text("Zürich");
+// // chart title
+// svg.append("text")
+//     .attr("y", 0)
+//     .attr("x", margin.left)
+//     .attr("dy", "1.5em")
+//     .attr("font-family", "sans-serif")
+//     .attr("font-size", "24px")
+//     .style("text-anchor", "left")
+//     .text("Zürich");
 
 // create parent group and add left and top margin
 const g = svg.append("g")
