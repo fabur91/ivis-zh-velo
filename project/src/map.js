@@ -3,30 +3,33 @@ const canvHeight = 800, canvWidth = 1200;
 const layout = [
     {   "class" : "map",
         "columnStart" : 1,
-        "columnEnd" :   1,
-        "rowStart" :    2,
-        "rowEnd" :      2},
+        "columnEnd" :   2,
+        "rowStart" :    1,
+        "rowEnd" :      1},
     {   "class" : "map-info",
         "columnStart" : 2,
         "columnEnd" :   2,
-        "rowStart" :    2,
-        "rowEnd" :      2},
+        "rowStart" :    1,
+        "rowEnd" :      1},
     {   "class" : "progress",
         "columnStart" : 1,
         "columnEnd" :   2,
-        "rowStart" :    3,
-        "rowEnd" :      3},
+        "rowStart" :    2,
+        "rowEnd" :      2},
 ];
 const header = d3.select("body").append("header")
-    .attr('class', 'header');
+    .attr('class', 'header')
+    .style('height', '8vh');
 
 const grid = d3.select("body").append("div")
     .attr('class', 'grid-container')
     .style('display', 'grid')
+    .style('height', '92vh')
     .style('grid-template-columns', '1fr 1fr')
-    .style('grid-template-rows', '50px auto')
-    .style('grid-column-gap', '5%')
-    .style('grid-row-gap', '15%');
+    .style('grid-column-gap', '3%')
+    .style('grid-row-gap', '3%')
+    .style('overflow', 'auto')
+    .style('padding-top', '12vh');
 
 const gridItems = grid.selectAll('div')
     .data(layout).enter()
@@ -66,6 +69,10 @@ const map = svg.append('image')
         console.log(event.clientX);
         console.log(event.clientY);
     });
+
+const mapInfo = d3.select(".map-info").append("div")
+    .attr('class', 'info');
+
 
 // calc the width and height depending on margins.
 const margin = {top: 50, right: 80, bottom: 50, left: 60};

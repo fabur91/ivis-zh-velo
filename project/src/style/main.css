@@ -8,15 +8,19 @@ p{
 }
 .header{
     background-color: #282828;
-    position: fixed;
     width: 100%;
-    padding: 20px;
-    height: 40px;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 .header div{
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
+}
+
+.map-info{
+    background-color: #282828;
+
 }
