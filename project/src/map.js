@@ -26,7 +26,7 @@ const grid = d3.select("body").append("div")
     .attr('class', 'grid-container')
     .style('display', 'grid')
     .style('grid-template-columns', '50% 50%')
-    .style('grid-template-rows', '100px 400px auto');
+    .style('grid-template-rows', '25px 4fr auto');
 
 const gridItems = grid.selectAll('div')
     .data(layout).enter()
