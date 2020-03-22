@@ -26,10 +26,11 @@ const grid = d3.select("body").append("div")
     .style('display', 'grid')
     .style('height', '92vh')
     .style('grid-template-columns', '1fr 1fr')
-    .style('grid-column-gap', '3%')
+    .style('grid-column-gap', '7%')
     .style('grid-row-gap', '3%')
     .style('overflow', 'auto')
-    .style('padding-top', '12vh');
+    .style('padding-top', '12vh')
+    .style('margin', '7%');
 
 const gridItems = grid.selectAll('div')
     .data(layout).enter()
@@ -38,7 +39,7 @@ const gridItems = grid.selectAll('div')
     .style('grid-column-start', d => d.columnStart)
     .style('grid-column-end', d => d.columnEnd)
     .style('grid-row-start', d => d.rowStart)
-    .style('grid-row-en', d => d.rowEnd)
+    .style('grid-row-end', d => d.rowEnd)
     .style('min-width', '0')
     .style('min-height', '0')
 ;
@@ -72,8 +73,13 @@ const map = svg.append('image')
 
 const mapInfo = d3.select(".map-info").append("div")
     .attr('class', 'info')
-
-
+    .attr('class', 'grid-container')
+    .style('display', 'grid')
+    .style('height', '100%')
+    .style('grid-template-columns', '1fr 1fr')
+    .style('grid-column-gap', '3%')
+    .style('grid-row-gap', '3%')
+    .style('overflow', 'auto');
 
 // calc the width and height depending on margins.
 const margin = {top: 50, right: 80, bottom: 50, left: 60};
@@ -121,22 +127,66 @@ d3.csv("./data/velo_fuss_zh_zaehler_pro_jahr.csv").then(function(data) {
         .attr("cy", d => yScale(d.y)*0.55+105)
         .attr("r", d => d.Mean_VELO_IN)
         .style("fill", "BLACK")
-        .on("mouseover", function(d){return tooltip.style("visibility", "visible").text(d.bezeichnung);})
+        .on("mouseover", function(d){
+            d3.select(this).style("cursor", "pointer");
+            return tooltip
+                .style("visibility", "visible")
+                .text(d.bezeichnung);
+        })
         .on("mousemove", function(d){
             return tooltip
                 .style("top", (d3.event.pageY-10)+"px")
                 .style("left",(d3.event.pageX+10)+"px")
-                .text(d.bezeichnung + '\n(' + Math.round(d.Mean_VELO_IN*4) + ' Velos pro Stunde)');})
+                // .text(d.bezeichnung + '\n(' + Math.round(d.Mean_VELO_IN*4) + ' Velos pro Stunde)')
+                ;})
         .on("mouseout", function(){return tooltip.style("visibility", "hidden");})
         .on("click", function(d){
             mapInfo.selectAll("*").remove();
-            mapInfo
-                .append("p")
+
+            mapInfo.append("div")
+                .attr('class', 'infoTitle')
+                .style('grid-column-start', '1')
+                .style('grid-column-end', 'two')
+                .style('grid-row-start', '1')
+                .style('grid-row-en', '1')
+                .style('text-align', 'center')
+                .style('display', 'flex')
+                .style('align-items', 'center');
+            mapInfo.select('.infoTitle')
+                .append("h1")
+                .style("margin", "0 auto")
                 .style("color", "white")
                 .text(d.bezeichnung);
 
-            mapInfo
-                .append("p")
+            mapInfo.append("div")
+                .attr('class', 'infoBicycle')
+                .style('grid-column-start', '1')
+                .style('grid-column-end', '1')
+                .style('grid-row-start', '2')
+                .style('grid-row-en', '2')
+                .style('text-align', 'center');
+            mapInfo.select('.infoBicycle')
+                .append('i')
+                .attr('class', 'fas fa-bicycle fa-5x')
+                .style('color', 'white');
+            mapInfo.select('.infoBicycle')
+                .append("h2")
+                .style("color", "white")
+                .text(d.Total_VELO_IN);
+
+            mapInfo.append("div")
+                .attr('class', 'infoPedestrian')
+                .style('grid-column-start', '2')
+                .style('grid-column-end', '2')
+                .style('grid-row-start', '2')
+                .style('grid-row-en', '2')
+                .style('text-align', 'center');
+            mapInfo.select('.infoPedestrian')
+                .append('i')
+                .attr('class', 'fas fa-walking fa-5x')
+                .style('color', 'white');
+            mapInfo.select('.infoPedestrian')
+                .append("h2")
                 .style("color", "white")
                 .text(d.Total_VELO_IN);
         });
