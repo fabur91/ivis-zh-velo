@@ -44,6 +44,7 @@ const gridItems = grid.selectAll('div')
 const svg = d3.select(".map").append("svg")
     .attr("width", 'auto')
     .attr("height", '100%')
+    .attr("preserveAspectRatio", "xMidYMin slice")
     .attr('viewBox', '0 0 800 1200')
     .style('overflow', 'hidden');
 
