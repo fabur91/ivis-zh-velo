@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding-top: 6vh;
 
 }
 
@@ -27,9 +28,16 @@ p{
 }
 
 .map-info{
-    background-color: #282828;
+    background-color: #a800ff;
+    height: 10vh;
 }
 
 .info{
     padding: 2rem;
 }
+/*Bootstrap overwrite*/
+
+    .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }

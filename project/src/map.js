@@ -1,6 +1,6 @@
 // layout
 const canvHeight = 800, canvWidth = 1200;
-const layout = [
+/*const layout = [
     {   "class" : "map",
         "columnStart" : 1,
         "columnEnd" :   2,
@@ -16,11 +16,9 @@ const layout = [
         "columnEnd" :   2,
         "rowStart" :    2,
         "rowEnd" :      2},
-];
-const header = d3.select("body").append("header")
-    .attr('class', 'header')
-    .style('height', '8vh');
+];*/
 
+/*
 const grid = d3.select("body").append("div")
     .attr('class', 'grid-container')
     .style('display', 'grid')
@@ -43,25 +41,26 @@ const gridItems = grid.selectAll('div')
     .style('min-width', '0')
     .style('min-height', '0')
 ;
+*/
 
 // create svg canvas
-const headerNav = d3.select(".header")
+/*const headerNav = d3.select(".header")
     .append('div')
     .append("p")
     .style("font-family", "sans-serif")
     .style("font-size", "24px")
     .style("text-anchor", "left")
     .style('color', 'white')
-    .text("Aufkommen Fussgänger und Velofahrer in der Stadt Zürich");
+    .text("");*/
 
-const svg = d3.select(".map").append("svg")
+/*const svg = d3.select(".map").append("svg")
     .attr("width", 'auto')
     .attr("height", '100%')
     .attr("preserveAspectRatio", "xMidYMin slice")
     .attr('viewBox', '0 0 1200 800')
-    .style('overflow', 'hidden');
+    .style('overflow', 'hidden');*/
 
-const map = svg.append('image')
+/*const map = svg.append('image')
     .attr('xlink:href', './data/map_zh.svg')
     .attr("width", canvWidth)
     .attr("height", canvHeight)
@@ -69,9 +68,9 @@ const map = svg.append('image')
     .on("mousedown", function(d) {
         console.log(event.clientX);
         console.log(event.clientY);
-    });
+    });*/
 
-const mapInfo = d3.select(".map-info").append("div")
+/*const mapInfo = d3.select(".map-info").append("div")
     .attr('class', 'info')
     .attr('class', 'grid-container')
     .style('display', 'grid')
@@ -79,7 +78,7 @@ const mapInfo = d3.select(".map-info").append("div")
     .style('grid-template-columns', '1fr 1fr')
     .style('grid-column-gap', '3%')
     .style('grid-row-gap', '3%')
-    .style('overflow', 'auto');
+    .style('overflow', 'auto');*/
 
 // calc the width and height depending on margins.
 const margin = {top: 50, right: 80, bottom: 50, left: 60};
