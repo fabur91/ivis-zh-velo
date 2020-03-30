@@ -1,1 +1,43 @@
+body{
+    margin: 0;
+    padding-top: 6vh;
 
+}
+
+h1, h2, h3, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    margin: 0;
+}
+.header{
+    background-color: #282828;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    display: flex;
+}
+
+.header div{
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.map-info{
+    background-color: #a800ff;
+    height: 10vh;
+}
+
+.info{
+    padding: 2rem;
+}
+/*Bootstrap overwrite*/
+
+    .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }
