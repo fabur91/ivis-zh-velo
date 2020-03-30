@@ -35,20 +35,8 @@ d3.csv("./data/motorisiert_zaehler_pro_jahr.csv").then(function(data) {
             fillOpacity: 0.5,
             radius: data[i].MotAvrg * 3
         })
-            .bindPopup(data[i].bezeichnung + '<br>lat: ' + lat + ', lon: ' + lon)
-            .addTo(map);
-    }
-});
-
-d3.csv("./data/velo_fuss_zh_zaehler_pro_jahr.csv").then(function(data) {
-    for (var i = 0; i < data.length; i++) {
-        var circle = L.circle([data[i].lat, data[i].lon], {
-            color: 'red',
-            fillColor: '#f03',
-            fillOpacity: 0.5,
-            radius: data[i].VeloInAvrg * 3
-        })
-            .bindPopup(data[i].bezeichnung + '<br>Velos/h: ' + Math.round(data[i].VeloInAvrg*4))
+            .bindPopup(data[i].bezeichnung + '<br>Motorisierte Fahrzeuge/h: ' + Math.round(data[i].MotAvrg*4))
+            // .bindPopup(data[i].bezeichnung + '<br>lat: ' + lat + ', lon: ' + lon)
             .addTo(map);
     }
 });
@@ -62,6 +50,19 @@ d3.csv("./data/zuerivelo_publibike.csv").then(function(data) {
             radius: 5
         })
             .bindPopup(data[i].name)
+            .addTo(map);
+    }
+});
+
+d3.csv("./data/velo_fuss_zh_zaehler_pro_jahr.csv").then(function(data) {
+    for (var i = 0; i < data.length; i++) {
+        var circle = L.circle([data[i].lat, data[i].lon], {
+            color: 'red',
+            fillColor: '#f03',
+            fillOpacity: 0.5,
+            radius: data[i].VeloInAvrg * 3
+        })
+            .bindPopup(data[i].bezeichnung + '<br>Velos/h: ' + Math.round(data[i].VeloInAvrg*4))
             .addTo(map);
     }
 });
