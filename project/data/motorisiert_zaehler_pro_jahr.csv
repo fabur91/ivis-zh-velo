@@ -1,0 +1,183 @@
+"ZSID","bezeichnung","EKoord","NKoord","Richtung","MotAvrg","MotTotal"
+"Z001","Seestrasse (Strandbad Wollishofen)",2683009.89,1243936.2,"auswärts",71.4085236637621,8760
+"Z001","Seestrasse (Strandbad Wollishofen)",2683013.18,1243937.64,"einwärts",82.75105957146239,8760
+"Z002","Albisstrasse (Widmerstrasse)",2682480.51,1243162.5,"auswärts",63.019024620096374,8760
+"Z002","Albisstrasse (Widmerstrasse)",2682484.91,1243162.41,"einwärts",67.4427199905753,8760
+"Z003","Sood-/Leimbachstrasse",2681573.79,1242969.91,"auswärts",35.99840613931529,8760
+"Z003","Sood-/Leimbachstrasse",2681607.86,1243010.95,"einwärts",54.329309327036576,8760
+"Z004","Birmensdorferstrasse (Triemli)",2679762.52,1246863.95,"auswärts",49.90725047080961,8760
+"Z004","Birmensdorferstrasse (Triemli)",2679771.84,1246852.29,"einwärts",57.9758121468925,8760
+"Z005","Albisriederstrasse (Lyrenweg)",2678871.97,1247592.79,"einwärts",41.09157250470812,8760
+"Z005","Albisriederstrasse (Lyrenweg)",2678874.03,1247598.55,"auswärts",35.653483992466896,8760
+"Z006","Badenerstrasse (Hermetschloobrücke)",2678017.34,1249747.52,"einwärts",67.66827272727241,8760
+"Z006","Badenerstrasse (Hermetschloobrücke)",2678023.77,1249754.67,"auswärts",64.49395161290327,8760
+"Z007","Bernerstrasse (Hermetschloobrücke)",2678132.31,1250219.47,"einwärts",82.29122528248604,8760
+"Z007","Bernerstrasse (Hermetschloobrücke)",2678135.59,1250227,"auswärts",71.36867349340874,8760
+"Z008","Limmattalstrasse (Frankentalerstrasse)",2678533.23,1250991.72,"einwärts",66.56100577081553,8760
+"Z008","Limmattalstrasse (Frankentalerstrasse)",2678639.3,1251013.35,"auswärts",52.58985985160711,8760
+"Z009","Regensdorferstrasse (Frankentalerstrasse)",2678836.59,1252206.8,"einwärts",63.19954074422981,8760
+"Z009","Regensdorferstrasse (Frankentalerstrasse)",2678841.72,1252207.33,"auswärts",64.99196302402247,8760
+"Z010","Wehntalerstrasse (Zehntenhausplatz)",2680421.43,1252654.93,"einwärts",114.4602582326462,8760
+"Z010","Wehntalerstrasse (Zehntenhausplatz)",2680425.14,1252660.75,"auswärts",123.3242463495053,8760
+"Z011","Glattalstrasse (Kolbenackerstrasse)",2683585.35,1253498.54,"einwärts",77.3380708568733,8760
+"Z011","Glattalstrasse (Kolbenackerstrasse)",2683637.14,1253424.13,"auswärts",88.5207156308851,8760
+"Z013","Thurgauerstrasse (Schärenmoosstrasse)",2684306.94,1252690.68,"auswärts",70.73292309504154,8760
+"Z013","Thurgauerstrasse (Schärenmoosstrasse)",2684310.47,1252727.56,"einwärts",70.54641673824956,8760
+"Z014","Weststrasse (Ueberlandstrasse)",2686130.26,1251546.14,"einwärts",49.27744081969143,8760
+"Z014","Weststrasse (Ueberlandstrasse)",2686139.38,1251547.6,"auswärts",42.93993640325054,8760
+"Z015","Neue Winterthurerstrasse (Ueberlandstrasse)",2687010.56,1251264.63,"einwärts",72.07529790856044,8760
+"Z015","Neue Winterthurerstrasse (Ueberlandstrasse)",2687021.11,1251261.03,"auswärts",84.08830860894885,8760
+"Z016","Ueberlandstrasse (Neue Winterthurerstrasse)",2687005.31,1251174.49,"auswärts",118.80724100194551,8760
+"Z016","Ueberlandstrasse (Neue Winterthurerstrasse)",2687010.02,1251185.21,"einwärts",121.78918409533087,8760
+"Z017","Dübendorfstrasse (Altwiesenstrasse)",2687080.72,1250344.37,"einwärts",39.595596891923826,8760
+"Z017","Dübendorfstrasse (Altwiesenstrasse)",2687080.9,1250340.44,"auswärts",38.914527902048576,8760
+"Z018","Tobelhof-/Dreiwiesenstrasse",2685813.35,1248142.25,"auswärts",51.90028255238943,8760
+"Z018","Tobelhof-/Dreiwiesenstrasse",2685849.45,1248148.3,"einwärts",67.4449611490458,8760
+"Z019","Witikonerstrasse (Katzenschwanzstrasse)",2687628.72,1246207.3,"einwärts",40.27543921707339,8760
+"Z019","Witikonerstrasse (Katzenschwanzstrasse)",2687630.91,1246201.94,"auswärts",36.01892465511128,8760
+"Z020","Forchstrasse (Witellikerstrasse)",2685897.8,1245406.61,"auswärts",91.8226224105462,8760
+"Z020","Forchstrasse (Witellikerstrasse)",2685961.74,1245348.47,"einwärts",108.26830273069679,8760
+"Z021","Bellerivestrasse (Bahnhof Tiefenbrunnen)",2684868.02,1244845.23,"auswärts",132.49087335018203,8760
+"Z021","Bellerivestrasse (Bahnhof Tiefenbrunnen)",2684905.26,1244804.51,"einwärts",131.6855247366313,8760
+"Z022","Allmendstrasse (Brunau)",2681701.49,1244599.72,"auswärts",58.921963276836216,8760
+"Z022","Allmendstrasse (Brunau)",2681748.24,1244565.5,"einwärts",67.81064618644014,8760
+"Z024","Autobahn A1 (Auschluss Schwamendingen)",2685373.47,1251665.11,"einwärts",408.98277027026984,1728
+"Z024","Autobahn A1 (Auschluss Schwamendingen)",2685383,1251656.05,"auswärts",415.225788288288,888
+"Z025","Europabrücke (Winzerstrasse)",2679758.14,1250394.64,"Altstetten",99.97887241054605,8760
+"Z025","Europabrücke (Winzerstrasse)",2679760.06,1250365.74,"Höngg",117.48310969868166,8760
+"Z026","Rosengartenstrasse",2681940.05,1249609.39,"Hardplatz",235.88759017757968,8760
+"Z026","Rosengartenstrasse (Röschibachstrasse)",2681913.5,1249607.31,"Bucheggplatz",262.52680254476786,8760
+"Z027","Wipkingerbrücke",2681911.35,1249583.44,"Escher Wyss Platz",42.08797345419236,8760
+"Z027","Wipkingerbrücke",2681960.29,1249649.87,"Wipkingerplatz",74.5767306333881,8760
+"Z028","Kornhausbrücke",2682755.37,1249023.49,"Limmatplatz",102.64088983050844,8760
+"Z028","Kornhausbrücke",2682767.55,1249026.65,"Nord",80.95157776992797,8760
+"Z029","Walchebrücke",2683297.01,1248118.51,"Bahnhof",139.74817518248256,8760
+"Z029","Walchebrücke",2683350.45,1248117.8,"Walcheplatz",112.9896667451718,8760
+"Z030","Rudolf Brun-Brücke",2683325.2,1247645.47,"Mühlegasse",58.528181067044166,8760
+"Z030","Rudolf Brun-Brücke",2683386.15,1247648.25,"Bahnhofquai",56.9241029272897,8760
+"Z031","Quaibrücke",2683361.41,1246789.19,"Bellevue",221.03048276676122,8760
+"Z031","Quaibrücke",2683399.15,1246811.72,"Bürkliplatz",208.7788597733703,8760
+"Z032","Binzmühlestrasse (Thurgauerstrasse)",2683912.36,1252088.07,"Oerlikon",79.6607332624869,8760
+"Z032","Binzmühlestrasse (Thurgauerstrasse)",2683913.58,1252071.86,"Schwamendingen",63.289792183256495,8760
+"Z033","Milchbucktunnel (Südportal)",2682953.4,1248912.91,"einwärts",201.04532301877896,8760
+"Z033","Milchbucktunnel (Südportal)",2682974.4,1248893.38,"auswärts",188.06977087516157,8760
+"Z034","Emil Klöti-Strasse (Gsteigstrasse)",2680448.99,1251086.36,"Bucheggplatz",58.2935861091422,8760
+"Z034","Emil Klöti-Strasse (Gsteigstrasse)",2680464.92,1251077.69,"Affoltern",55.14632057642348,8760
+"Z035","Gutstrasse (Burstwiesenstrasse)",2680544.57,1247408.57,"Hubertus",33.94059844192628,8760
+"Z035","Gutstrasse (Burstwiesenstrasse)",2680550.91,1247394.08,"Birmensdorferstrasse",47.94682483474973,8760
+"Z036","Schweighofstrasse (Hägelerweg)",2680283.25,1246881.41,"Albisgütli",40.244570349386024,8760
+"Z036","Schweighofstrasse (Hägelerweg)",2680283.75,1246891.47,"Birmensdorferstrasse",37.04210930122738,8760
+"Z037","Bergstrasse (Schneckenmannstrasse)",2684723.22,1247762.38,"Vorderberg",48.17584495391155,8760
+"Z037","Bergstrasse (Schneckenmannstrasse)",2684724.39,1247752.19,"Klusplatz",49.79234633569733,8760
+"Z038","Rosengartenstrasse (Nordstrasse)",2682064.64,1249911.79,"Hardbrücke",232.0292207792204,8760
+"Z038","Rosengartenstrasse (Nordstrasse)",2682070.59,1249909.12,"Bucheggplatz",292.649940968124,8760
+"Z039","Hardbrücke (SBB PJZ)",2681286.9,1248596.51,"Albisriederplatz und Hohlstrasse",177.48024054982682,8760
+"Z040","Seebahnstrasse (Kalkbreitestrasse)",2681633.58,1247560.63,"Hohlstrasse",144.41546635182942,8760
+"Z040","Seebahnstrasse (Kalkbreitestrasse)",2681663.21,1247514.92,"Birmensdorferstrasse",122.85188902007064,8760
+"Z041","Gessnerallee (Usteribrücke)",2682836.17,1247804.28,"Selnau",119.76809754369364,8760
+"Z041","Gessnerallee (Usteribrücke)",2682889.23,1247807.07,"Löwenplatz",79.63869863013714,8760
+"Z042","Limmatquai (Rudolf-Brun-Brücke)",2683405.82,1247669.65,"Rudolf-Brun-Brücke",15.20786118980172,8760
+"Z043","Seilergraben (Mühlegasse)",2683632.81,1247672.67,"Central und Mühlegasse",123.64305949008406,8760
+"Z043","Seilergraben (Mühlegasse)",2683674.15,1247582.01,"Heimplatz",100.72703778517095,8760
+"Z044","Uraniastrasse (Bahnhofstrasse)",2683078.85,1247647.59,"Brudolf-Brun-Brücke",109.84125652498075,8760
+"Z044","Uraniastrasse (Bahnhofstrasse)",2683081.42,1247664.83,"Sihlporte",112.3649964589232,8760
+"Z045","Talstrasse (Pelikanstrasse)",2682833.88,1247221.96,"See",74.36242621015313,8760
+"Z045","Talstrasse (Pelikanstrasse)",2682837.98,1247228.78,"Sihlporte",47.07470484061368,8760
+"Z046","Zeltweg (Merkurstrasse)",2684191.84,1246842.02,"Heimplatz",62.64704320113284,8760
+"Z046","Zeltweg (Merkurstrasse)",2684205.99,1246807.88,"Kreuzplatz",74.72264518413603,8760
+"Z047","Hottingerstrasse (Freiestrasse)",2684379.94,1247093.75,"Heimplatz",54.37399669499504,8760
+"Z047","Hottingerstrasse (Freiestrasse)",2684393.48,1247079.64,"Klusplatz",24.991648961284195,8760
+"Z048","Rämistrasse (Stadelhoferstrasse)",2683639.46,1246923.62,"Bellevue",97.2620101510856,8760
+"Z048","Rämistrasse (Stadelhoferstrasse)",2683669.44,1246937.44,"Heimplatz",99.53340415486272,8760
+"Z049","Bahnhofbrücke",2683341.26,1247938.79,"Bahnhof",75.51937544781445,8760
+"Z049","Bahnhofbrücke",2683409.33,1247916.89,"Central",46.94829626123967,8760
+"Z050","Europabrücke (Max Högger- und Würzgrabenstrasse)",2679589.59,1249680.65,"Altstetten",121.7804606240708,8760
+"Z050","Europabrücke (Max Högger- und Würzgrabenstrasse)",2679597.69,1249679.24,"Höngg",128.37132421801869,8760
+"Z051","Seebacherstrasse (Binzmühlestrasse)",2681644.06,1252105.94,"Affoltern",17.67299291617467,8760
+"Z051","Seebacherstrasse (Binzmühlestrasse)",2681647.71,1252103.54,"Seebach",16.64636953955133,8760
+"Z052","Hirschwiesentunnel",2682982.87,1250316.11,"Hardbrücke",140.4424575070827,8760
+"Z052","Hirschwiesentunnel",2682984.46,1250310.11,"Winterthur",198.65338762983907,8760
+"Z053","Birchstrasse (Eichraintunnel)",2683775.9,1253804.18,"Glatttalstrasse",85.70018885741213,8760
+"Z053","Birchstrasse (Eichraintunnel)",2683792.79,1253795.29,"Autobahn",103.06010977337041,8760
+"Z054","Rämistrasse (Kantonsschul- und Zürichbergstrasse)",2683959.68,1247473.33,"Universität",63.48790132200172,8760
+"Z054","Rämistrasse (Kantonsschul- und Zürichbergstrasse)",2683969.38,1247478.98,"Heimplatz",46.50306893295572,8760
+"Z055","Höschgasse (Zollikerstrasse)",2684533.15,1245997.77,"See",27.992563578564795,8760
+"Z055","Höschgasse (Zollikerstrasse)",2684538.56,1245994.09,"Hegibachplatz",33.50708884688081,8760
+"Z056","Zollikerstrasse (Höschgasse)",2684570.33,1245963.48,"Zollikon",13.50242202268434,8760
+"Z056","Zollikerstrasse (Höschgasse)",2684575.79,1245967.47,"einwärts",21.22716800567098,8760
+"Z057","Stockerstrasse (Dreikönigstrasse)",2682812.4,1246821.41,"See",35.216330264400014,8760
+"Z057","Stockerstrasse (Dreikönigstrasse)",2682816.79,1246823.7,"Stauffacherplatz",26.020567752596826,8760
+"Z058","Stampfenbachstrasse (Wasserwerkstrasse)",2683370.8,1248325.77,"Hauptbahnhof",49.094447725930266,8760
+"Z058","Stampfenbachstrasse (Wasserwerkstrasse)",2683379.96,1248329.67,"Schaffhauserplatz",75.26864690413554,8760
+"Z059","Neumühlequai (Sanität)",2683200.49,1248492.25,"Central",136.17749645892286,8760
+"Z059","Neumühlequai (Sanität)",2683238.97,1248431.3,"Milchbucktunnel",99.20204792256881,8760
+"Z060","Hermetschloobrücke",2678191.96,1250174.04,"Badenerstrasse",33.22819715276933,8760
+"Z060","Hermetschloobrücke",2678202.38,1250180.13,"Bernerstrasse",31.621576959395544,8760
+"Z061","Duttweiler Brücke",2681022.02,1249303.64,"Hohlstrasse",73.5085972583315,8760
+"Z061","Duttweiler Brücke",2681041.14,1249300.71,"Pfingstweidstrasse",73.93476719451677,8760
+"Z062","Brunaustrasse (Rieterstrasse)",2682141.89,1245399.4,"Allmend",7.053086638338065,8760
+"Z062","Brunaustrasse (Rieterstrasse)",2682150.75,1245401.35,"Enge",27.84681893295552,8760
+"Z063","Albisriederstrasse (Hubertus)",2680111.39,1247945.02,"Hubertus",50.18341204250292,8760
+"Z063","Albisriederstrasse (Hubertus)",2680119.19,1247929.69,"Albisriederplatz",58.472491145218314,8760
+"Z064","Gutstrasse (Hubertus)",2680149.109,1247840.135,"Hubertus",41.84288665879552,8760
+"Z064","Gutstrasse (Hubertus)",2680149.561,1247829.965,"Birmensdorferstrasse",46.9646103896102,8760
+"Z065","Hardturmstrasse (Fischerweg)",2681559.27,1249548.02,"auswärts",165.09684098438132,8760
+"Z065","Hardturmstrasse (Fischerweg)",2681566.35,1249538.12,"einwärts",73.72802295314726,8760
+"Z066","Stauffacherstrasse (Feldstrasse)",2681813.28,1247994.07,"Helvetiaplatz",29.812396694214932,8760
+"Z066","Stauffacherstrasse (Feldstrasse)",2681828.48,1247992.53,"Seebahnstrasse",21.800619834710798,8760
+"Z067","Manessestrasse (Stauffacherquai)",2682225.55,1247066.11,"A3 und Schimmelstrasse",203.35038370720108,8760
+"Z068","Schimmelstrasse (Werdstrasse)",2682050.28,1247164.9,"Manessestrasse",158.56381719156897,8760
+"Z068","Schimmelstrasse (Werdstrasse)",2682054,1247168,"Bahnhof Wiedikon",132.37067842765921,8760
+"Z069","Seebahnstrasse (Stauffacherstrasse)",2681612,1248083,"Badenerstrasse",70.00994671403181,8760
+"Z069","Seebahnstrasse (Stauffacherstrasse)",2681637.49,1248112.09,"Hohlstrasse",131.45139135583221,8760
+"Z070","Hohlstrasse (Erismannstrasse)",2681629.07,1248307.08,"Hardplatz",184.41393686718146,8760
+"Z070","Hohlstrasse (Erismannstrasse)",2681629.46,1248290.46,"Seebahnstrasse",124.19589147286793,8760
+"Z071","Badenerstrasse (Zypressenstrasse)",2681175.41,1247887.5,"Seebahnstrasse",49.108514041947984,8760
+"Z071","Badenerstrasse (Zypressenstrasse)",2681183.65,1247898.67,"Albisriederplatz",63.3351996682068,8760
+"Z072","Manessestrasse (Weststrasse)",2682047.59,1247026.35,"auswärts",269.3868103244138,8760
+"Z072","Manessestrasse (Weststrasse)",2682055,1247019,"einwärts",204.5517700686714,8760
+"Z073","Stauffacherbrücke",2682474.28,1247275.42,"See",44.18906455862962,8760
+"Z073","Stauffacherbrücke",2682509.27,1247271.02,"Stauffacher",36.419477409952265,8760
+"Z074","Stauffacherquai (Stauffacherbrücke)",2682467.01,1247308.4,"Hauptbahnhof",70.71836529356061,8760
+"Z075","Stauffacherstrasse (Stauffacherbrücke)",2682438.72,1247315.24,"Stauffacher",51.38991477272725,8760
+"Z075","Stauffacherstrasse (Stauffacherbrücke)",2682475.72,1247274.81,"See",44.18906455862962,8760
+"Z076","Pfingstweidstrasse (Sportweg)",2680408,1249570,"einwärts",132.31809303977096,8760
+"Z076","Pfingstweidstrasse (Sportweg)",2680534,1249530,"auswärts",166.52808357007595,8760
+"Z077","Sihlhölzlibrücke (Ulmbergtunnel)",2682331.58,1247014.38,"Manessestrasse",227.54413331754552,8760
+"Z078","Birmensdorferstrasse (Wasserschöpfi)",2680570,1247051,"auswärts",40.968801799668555,8760
+"Z078","Birmensdorferstrasse (Wasserschöpfi)",2680627,1247048,"einwärts",43.9523739048071,8760
+"Z079","A3W (A4 Uetlibergtunnel Brunau)",2681711.03,1244591.58,"Uetlibergtunnel",169.38836089854357,8760
+"Z079","A3W (A4 Uetlibergtunnel Brunau)",2681737.76,1244573.5,"einwärts",164.2816051136369,8760
+"Z080","A3W (Chur Brunau)",2681720.14,1244585.09,"Chur",168.82149621212122,8760
+"Z080","A3W (Chur Brunau)",2681728.49,1244579.52,"einwärts",144.29900568181804,8760
+"Z081","Pfingstweidstrasse (Welti Furrer Ausfahrt)",2681455.2,1249140.27,"auswärts",35.75091737689397,8760
+"Z081","Pfingstweidstrasse (Welti Furrer Ausfahrt)",2681492.61,1249103.94,"Hardbrücke",84.41935961174167,8760
+"Z082","Hardbrücke (Hardstrasse)",2681286.9,1248596.51,"Albissriederplatz",90.35935828877003,8760
+"Z082","Hardbrücke (Hardstrasse)",2681290.57,1248593.98,"Bucheggplatz",110.28152109328599,8760
+"Z083","Hardbrücke Rampen (Hohlstrasse)",2681302.84,1248632.97,"Hohlstrasse",87.11375519904898,8760
+"Z083","Hardbrücke Rampen (Hohlstrasse)",2681323.95,1248627.21,"Bucheggplatz",118.975873297809,8760
+"Z084","Angererstrasse Tunnelstrasse (Ulmbergtunnel)",2682555,1246755,"Bleicherweg",34.57107668565966,8760
+"Z084","Angererstrasse Tunnelstrasse (Ulmbergtunnel)",2682575,1246766,"Sihlhölzli",29.8531605113636,8760
+"Z085","Alfred-Escher-Strasse (Ulmbergtunnel)",2682562,1246759,"See",72.56031013257532,8760
+"Z085","Alfred-Escher-Strasse (Ulmbergtunnel)",2682568,1246765,"Sihlhölzli",105.6910807291667,8760
+"Z086","Binzmuehlestrasse (Seebacherstrasse)",2681645,1252090,"Affoltern",52.296797300497005,8760
+"Z086","Binzmuehlestrasse (Seebacherstrasse)",2681650,1252084,"Oerlikon",48.3164219748993,8760
+"Z087","Wehntalerstrasse (Nordheimstrasse)",2682668,1250941,"einwärts",63.912084628257276,8760
+"Z087","Wehntalerstrasse (Nordheimstrasse)",2682671,1250955,"Affoltern",51.94393795879707,8760
+"Z088","Regensbergstrasse (Birchstrasse)",2682930,1251564,"Affoltern",43.10120106761563,8760
+"Z088","Regensbergstrasse (Birchstrasse)",2682940,1251551,"Oerlikon",34.35215832824867,8760
+"Z089","Wallisellenstrasse (Saatlenstrasse)",2684856,1251730,"einwärts",41.12813683712106,8760
+"Z089","Wallisellenstrasse (Saatlenstrasse)",2684870,1251725,"auswärts",26.894560842802957,8760
+"Z090","Winterthurerstrasse (Luchswiesenstrasse)",2686453,1251269,"einwärts",47.10917702782678,8760
+"Z090","Winterthurerstrasse (Luchswiesenstrasse)",2686466,1251268,"auswärts",43.12063351095325,8760
+"Z091","Dreikönigstrasse (Genferstrasse)",2682703,1246710,"Talstrasse",92.00588896780312,8760
+"Z092","Am Wasser (Hardeggstrasse)",2680351.25,1250143.93,"einwärts",45.91070496083546,8760
+"Z092","Am Wasser (Hardeggstrasse)",2680353.27,1250146.37,"auswärts",21.3969973890339,8760
+"Z093","Hardturmstrasse (Bernoullihäuser)",2680756.38,1249768.58,"auswärts",38.9672758315415,8760
+"Z093","Hardturmstrasse (Bernoullihäuser)",2680804.49,1249763.88,"einwärts",43.0752369668245,8760
+"Z095","Schwamendingerstrasse (Dörflistrasse)",2683960.76,1251252.12,"Schwamendingen",38.870219064535114,8760
+"Z095","Schwamendingerstrasse (Dörflistrasse)",2683962.29,1251255.28,"Oerlikon",52.17841918294869,8760
+"Z096","Katzenschwanzstrasse (Witikonerstrasse)",2687484.89,1246164.33,"einwärts",27.485514860402212,8760
+"Z096","Katzenschwanzstrasse (Witikonerstrasse)",2687489.57,1246167.45,"auswärts",29.033398378865172,8760
+"Z097","Hofwiesenstrasse (Brunnenhofweg)",2682704.5,1250615.65,"Bucheggplatz",102.5345643939393,8760
+"Z097","Hofwiesenstrasse (Brunnenhofweg)",2682722.32,1250622.32,"Oerlikon",75.58516808712065,8760

@@ -8,8 +8,10 @@ document.onscroll = function() {
         } else {
             header.classList.remove("fixed-top");
         }
-    }
+    };
 /* Sicky Header end */
+
+
 
 var map = L.map('map').setView([47.3686498, 8.5391825], 13);
 
@@ -23,13 +25,28 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoiZmFiaWFuYnVyIiwiYSI6ImNrOGQxcnVtdDBxdDEzcHFwN3BzZDh0d2sifQ.RZ1FydXU6FKtGo34haa5nQ'
 }).addTo(map);
 
+d3.csv("./data/motorisiert_zaehler_pro_jahr.csv").then(function(data) {
+    for (var i = 0; i < data.length; i++) {
+        var lon = (data[i].EKoord - 2678023.77) * 0.0000132 + 8.472;
+        var lat = (data[i].NKoord - 1242969.91) * 0.0000091 + 47.3318;
+        var circle = L.circle([lat, lon], {
+            color: 'yellow',
+            fillColor: '#fd3',
+            fillOpacity: 0.5,
+            radius: data[i].MotAvrg * 3
+        })
+            .bindPopup(data[i].bezeichnung + '<br>lat: ' + lat + ', lon: ' + lon)
+            .addTo(map);
+    }
+});
+
 d3.csv("./data/velo_fuss_zh_zaehler_pro_jahr.csv").then(function(data) {
-    for (var i = 1; i < data.length; i++) {
+    for (var i = 0; i < data.length; i++) {
         var circle = L.circle([data[i].lat, data[i].lon], {
             color: 'red',
             fillColor: '#f03',
             fillOpacity: 0.5,
-            radius: data[i].VeloInAvrg * 20
+            radius: data[i].VeloInAvrg * 3
         })
             .bindPopup(data[i].bezeichnung + '<br>Velos/h: ' + Math.round(data[i].VeloInAvrg*4))
             .addTo(map);
@@ -37,12 +54,12 @@ d3.csv("./data/velo_fuss_zh_zaehler_pro_jahr.csv").then(function(data) {
 });
 
 d3.csv("./data/zuerivelo_publibike.csv").then(function(data) {
-    for (var i = 1; i < data.length; i++) {
+    for (var i = 0; i < data.length; i++) {
         var circle = L.circle([data[i].lat, data[i].lon], {
             color: 'blue',
             fillColor: '#30f',
             fillOpacity: 0.5,
-            radius: 50
+            radius: 5
         })
             .bindPopup(data[i].name)
             .addTo(map);
@@ -51,5 +68,5 @@ d3.csv("./data/zuerivelo_publibike.csv").then(function(data) {
 
 map.setMaxBounds([
     [47.33, 8.63],
-    [47.46, 8.47]
+    [47.46, 8.46]
 ]);
