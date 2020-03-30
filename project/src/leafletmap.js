@@ -2,19 +2,14 @@
 var header = document.getElementById("header");
 var sticky = header.offsetTop;
 
-window.addEventListener('scroll', () => {
-    const scrolled = window.scrollY;
-    console.log(scrolled);
-        console.log(window.pageYOffset);
-        console.log(sticky);
+document.onscroll = function() {
         if (window.pageYOffset > sticky) {
             header.classList.add("fixed-top");
         } else {
             header.classList.remove("fixed-top");
         }
     }
-);
-/* Sicky Header stop */
+/* Sicky Header end */
 
 var map = L.map('map').setView([47.3686498, 8.5391825], 13);
 
