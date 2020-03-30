@@ -4,20 +4,31 @@
   <meta charset="utf-8"/>
   <link rel="stylesheet" href="src/style/main.css"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+          integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+          crossorigin=""></script>
   <style>
-    .bar { fill: #82AEE5; }
-    #chart-area-box { fill: none; stroke: black }
+    #map {
+      width: auto;
+      height: 100vh;
+      position: relative;
+      outline: none;
+    }
   </style>
 
   <!-- Map from: https://www.openstreetmap.org/relation/1682248#map=12/47.3758/8.5281&layers=D -->
 </head>
 <body>
+  <div id="map"></div>
 
   <!-- put your html stuff here (titles, buttons, etc) -->
 
   <script src='lib/d3/d3.js'></script>
   <script src='lib/lodash.js'></script>
-  <script src='src/map.js'></script>
+  <script src='src/leafletmap.js'></script>
 
 </body>
 </html>
